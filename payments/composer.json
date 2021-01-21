@@ -1,0 +1,14 @@
+{
+    "description": "",
+    "name": "vagrant/payments",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Kilo\\Payments\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "vagrant/payments",
+    "description": "Payments library",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Kilo\\Payments\\Providers\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kilo\\Payments\\Tests\Providers\\": "tests/"
+        }
+    }
+}
